@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  
+  get 'movies/show_gladiator'
+
+  get '/movies/gladiator', to: 'movies#show_gladiator'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
