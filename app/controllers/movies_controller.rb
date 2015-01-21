@@ -14,4 +14,18 @@ class MoviesController < ApplicationController
     @video_id = 2
   end
   
+  def show_ddg
+    @title = 'Drop Dead Gorgeous'
+    @description = 'The best movie ever'
+    @subtitle = 'Her she is, Mount Rose American Teen Princess'
+    @video_id = 3
+  end
+  
+  def show_airbud
+    @title = 'Air Bud'
+    @description = 'A movie featuring a dog'
+    @subtitle = "Ain't no rule says a dog can't play"
+    @video_id = 4
+  end
+  
 end
